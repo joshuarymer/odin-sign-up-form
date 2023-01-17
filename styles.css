@@ -12,11 +12,14 @@ body {
   
 #section-1 {
     flex: 1;
-    background-color: aqua;
+    background-image: url(images/fern.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position: left;
+    min-width: 400px;
 }
   
 #section-2 {
-
     flex: 2;
-    background-color: brown;
+    background-color: rgb(243, 248, 248);
 }
