@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
 body {
     margin: 0;
     padding: 0;
@@ -38,7 +43,8 @@ body {
     background-color: aliceblue;
     position: relative;
     width: 100%;
-    justify-content:space-between
+    justify-content:space-between;
+    font-weight: 600;
 }
 
 /* section-1 */
@@ -75,16 +81,17 @@ body {
 /* section-2 */
 
 #top-con {
-    background-color: brown;
+    background-color: aliceblue;
     flex: 1;
     display: flex;
     justify-content: left;
     align-items:center;
-    padding: 0px 50px;
+    padding: 75px 0 0 50px;
 }
 
 #caption {
-    font-size: 18px;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 #form-con {
@@ -93,6 +100,10 @@ body {
     background-color: white;
     padding: 30px 50px;
 
+}
+
+#letsdo {
+    font-size: 1.5rem;
 }
 
 #form-arrange {
@@ -113,16 +124,33 @@ body {
     color: gray;
 }
 
+label {
+    font-size: 0.8rem;
+}
+
 input {
     height: 1.5rem;
     margin: 5px 0;
-
+    border-radius: 3px #E5E7EB;
 }
 
 
 #bottom-con {
-    background-color: blue;
+    background-color: aliceblue;
     height: 200px;
     width: 100%;
     flex: 1;
+    padding: 50px 0 0 50px;
+    font-weight: 100;
+}
+
+button {
+    margin-bottom: 15px;
+    height: 50px;
+    width: 200px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #596D48;
+    color: white;
+    font-size: 1rem;
 }
