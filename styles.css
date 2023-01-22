@@ -78,6 +78,23 @@ body {
     height: 125px;
 }
 
+#bottom-text {
+    width: 100%;
+    color: white;
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+}
+.one-link {
+    color: inherit;
+    text-decoration: underline;
+    
+    
+}
+
 /* section-2 */
 
 #top-con {
