@@ -29,7 +29,7 @@ body {
     flex: 1;
     background-image: url(images/fern.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1000px;
     background-position: left;
     min-width: 300px;
     max-width: 600px;
